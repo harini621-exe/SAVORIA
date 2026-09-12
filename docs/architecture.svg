@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 740" width="900" height="740">
+  <defs>
+    <style>
+      .lbl { font: bold 13px 'Segoe UI', sans-serif; fill: #2c2420; }
+      .sub { font: 11px 'Segoe UI', sans-serif; fill: #6b5c52; }
+      .sec { font: bold 10px 'Segoe UI', sans-serif; fill: #9c8880; letter-spacing: 1px; }
+    </style>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0,8 3,0 6" fill="#b5651d"/>
+    </marker>
+  </defs>
+  <rect width="900" height="740" fill="#faf8f5"/>
+
+  <!-- Title -->
+  <text x="450" y="34" font-family="Segoe UI" font-size="18" font-weight="bold" fill="#2c2420" text-anchor="middle">SAVORIA - System Architecture</text>
+  <text x="450" y="54" font-family="Segoe UI" font-size="11" fill="#6b5c52" text-anchor="middle">AI-Powered RAG-Based Intelligent Recipe Preparation Agent</text>
+
+  <!-- User -->
+  <rect x="370" y="72" width="160" height="44" rx="8" fill="#fff" stroke="#e8e0d5" stroke-width="1.5"/>
+  <text x="450" y="92" class="lbl" text-anchor="middle">User</text>
+  <text x="450" y="108" class="sub" text-anchor="middle">Ingredients + Preferences</text>
+  <line x1="450" y1="116" x2="450" y2="140" stroke="#b5651d" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Frontend -->
+  <rect x="300" y="140" width="300" height="52" rx="8" fill="#fdf0e8" stroke="#d4894a" stroke-width="1.5"/>
+  <text x="450" y="162" class="lbl" text-anchor="middle">SAVORIA Frontend</text>
+  <text x="450" y="178" class="sub" text-anchor="middle">React 18 - React Router - Vite - Axios</text>
+  <line x1="450" y1="192" x2="450" y2="216" stroke="#b5651d" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Backend -->
+  <rect x="300" y="216" width="300" height="52" rx="8" fill="#fdf0e8" stroke="#d4894a" stroke-width="1.5"/>
+  <text x="450" y="238" class="lbl" text-anchor="middle">Backend API</text>
+  <text x="450" y="254" class="sub" text-anchor="middle">FastAPI - Python 3.11 - Uvicorn</text>
+  <line x1="450" y1="268" x2="450" y2="302" stroke="#b5651d" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Agentic layer -->
+  <rect x="60" y="302" width="780" height="132" rx="10" fill="#f5f1eb" stroke="#e8e0d5" stroke-width="1.5"/>
+  <text x="80" y="322" class="sec">AGENTIC WORKFLOW</text>
+
+  <rect x="76" y="330" width="136" height="54" rx="6" fill="#fff" stroke="#e8e0d5"/>
+  <text x="144" y="352" class="lbl" text-anchor="middle">Ingredient</text>
+  <text x="144" y="366" class="lbl" text-anchor="middle">Analyzer</text>
+  <text x="144" y="378" class="sub" text-anchor="middle">Normalise - Categorise</text>
+
+  <rect x="228" y="330" width="136" height="54" rx="6" fill="#fff" stroke="#e8e0d5"/>
+  <text x="296" y="352" class="lbl" text-anchor="middle">Preference</text>
+  <text x="296" y="366" class="lbl" text-anchor="middle">Analyzer</text>
+  <text x="296" y="378" class="sub" text-anchor="middle">Diet - Cuisine - Time</text>
+
+  <rect x="380" y="330" width="136" height="54" rx="6" fill="#fff" stroke="#e8e0d5"/>
+  <text x="448" y="352" class="lbl" text-anchor="middle">Substitution</text>
+  <text x="448" y="366" class="lbl" text-anchor="middle">Advisor</text>
+  <text x="448" y="378" class="sub" text-anchor="middle">Ingredient Swaps</text>
+
+  <rect x="532" y="330" width="136" height="54" rx="6" fill="#fff" stroke="#e8e0d5"/>
+  <text x="600" y="352" class="lbl" text-anchor="middle">Dietary</text>
+  <text x="600" y="366" class="lbl" text-anchor="middle">Adapter</text>
+  <text x="600" y="378" class="sub" text-anchor="middle">Vegan - GF - Dairy-free</text>
+
+  <rect x="684" y="330" width="140" height="54" rx="6" fill="#fff" stroke="#e8e0d5"/>
+  <text x="754" y="352" class="lbl" text-anchor="middle">Recipe</text>
+  <text x="754" y="366" class="lbl" text-anchor="middle">Planner</text>
+  <text x="754" y="378" class="sub" text-anchor="middle">Orchestrates agents</text>
+
+  <!-- Arrows to RAG and Watsonx -->
+  <line x1="295" y1="434" x2="240" y2="468" stroke="#b5651d" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="605" y1="434" x2="655" y2="468" stroke="#b5651d" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- RAG box -->
+  <rect x="60" y="468" width="360" height="80" rx="10" fill="#edf4f0" stroke="#b8d9c4" stroke-width="1.5"/>
+  <text x="80" y="490" class="sec" fill="#4a7c59">RAG RETRIEVAL</text>
+  <text x="240" y="514" class="lbl" text-anchor="middle">Recipe Knowledge Base + FAISS</text>
+  <text x="240" y="530" class="sub" text-anchor="middle">sentence-transformers all-MiniLM-L6-v2</text>
+  <text x="240" y="544" class="sub" text-anchor="middle">Top-K Cosine Similarity Retrieval</text>
+
+  <!-- IBM watsonx box -->
+  <rect x="480" y="468" width="360" height="80" rx="10" fill="#eef4fb" stroke="#b8d4ef" stroke-width="1.5"/>
+  <text x="500" y="490" class="sec" fill="#2d6da3">AI GENERATION</text>
+  <text x="660" y="514" class="lbl" text-anchor="middle">IBM watsonx.ai</text>
+  <text x="660" y="530" class="sub" text-anchor="middle">Meta LLaMA 3.3 70B Instruct</text>
+  <text x="660" y="544" class="sub" text-anchor="middle">RAG-augmented prompt generation</text>
+
+  <!-- Arrows to recipe output -->
+  <line x1="240" y1="548" x2="380" y2="586" stroke="#b5651d" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="660" y1="548" x2="520" y2="586" stroke="#b5651d" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Recipe Output -->
+  <rect x="300" y="586" width="300" height="52" rx="8" fill="#fdf0e8" stroke="#d4894a" stroke-width="1.5"/>
+  <text x="450" y="608" class="lbl" text-anchor="middle">Personalised Recipes</text>
+  <text x="450" y="624" class="sub" text-anchor="middle">Substitutions - Dietary Adaptation - Steps</text>
+
+  <!-- Final outputs -->
+  <line x1="380" y1="638" x2="270" y2="674" stroke="#b5651d" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="520" y1="638" x2="630" y2="674" stroke="#b5651d" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <rect x="170" y="674" width="200" height="44" rx="8" fill="#fff" stroke="#e8e0d5"/>
+  <text x="270" y="694" class="lbl" text-anchor="middle">Cooking Mode</text>
+  <text x="270" y="708" class="sub" text-anchor="middle">Step-by-step - Progress</text>
+
+  <rect x="530" y="674" width="200" height="44" rx="8" fill="#fff" stroke="#e8e0d5"/>
+  <text x="630" y="694" class="lbl" text-anchor="middle">Saved / Recent</text>
+  <text x="630" y="708" class="sub" text-anchor="middle">localStorage - Session state</text>
+</svg>

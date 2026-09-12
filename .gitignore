@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Credentials - NEVER COMMIT
+backend/.env
+*.env
+
+# FAISS index (built at runtime)
+backend/data/*.faiss
+backend/data/*.pkl
+
+# Hugging Face cache
+.cache/
+
+# Node.js / Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log

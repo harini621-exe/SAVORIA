@@ -1,0 +1,785 @@
+[
+  {
+    "id": "r001",
+    "name": "Classic Spaghetti Aglio e Olio",
+    "description": "A simple, authentic Italian pasta dish made with garlic, olive oil, and chilli flakes. Ready in under 20 minutes with pantry staples.",
+    "cuisine": "Italian",
+    "meal_type": "dinner",
+    "difficulty": "Easy",
+    "cooking_time_minutes": 20,
+    "prep_time_minutes": 5,
+    "servings": 2,
+    "dietary_info": ["vegetarian", "vegan", "dairy-free"],
+    "tags": ["quick", "pasta", "garlic", "pantry"],
+    "ingredients": [
+      {"name": "spaghetti", "quantity": "200", "unit": "g"},
+      {"name": "garlic", "quantity": "4", "unit": "cloves"},
+      {"name": "olive oil", "quantity": "4", "unit": "tbsp"},
+      {"name": "red chilli flakes", "quantity": "1/2", "unit": "tsp"},
+      {"name": "fresh parsley", "quantity": "2", "unit": "tbsp"},
+      {"name": "salt", "quantity": "to taste", "unit": ""},
+      {"name": "black pepper", "quantity": "to taste", "unit": ""}
+    ],
+    "steps": [
+      {"step_number": 1, "instruction": "Bring a large pot of salted water to a boil. Add spaghetti and cook according to package directions until al dente (8-10 minutes). Reserve 1/2 cup pasta water before draining.", "required_ingredients": ["spaghetti", "salt"]},
+      {"step_number": 2, "instruction": "While pasta cooks, heat olive oil in a large skillet over medium-low heat. Add thinly sliced garlic and cook gently for 3-4 minutes until golden (not browned).", "required_ingredients": ["olive oil", "garlic"]},
+      {"step_number": 3, "instruction": "Add chilli flakes to the garlic oil and stir for 30 seconds.", "required_ingredients": ["red chilli flakes"]},
+      {"step_number": 4, "instruction": "Add drained pasta to the skillet along with a splash of reserved pasta water. Toss vigorously to emulsify the sauce and coat the pasta evenly.", "required_ingredients": ["spaghetti"]},
+      {"step_number": 5, "instruction": "Remove from heat. Add chopped parsley, season with salt and black pepper, and serve immediately.", "required_ingredients": ["fresh parsley", "salt", "black pepper"], "tip": "The pasta water starch is the secret to a silky sauce."}
+    ],
+    "substitutions": [
+      {"original": "spaghetti", "substitute": "linguine or any long pasta", "quantity_guidance": "same weight", "effect_on_recipe": "minimal difference in texture"},
+      {"original": "fresh parsley", "substitute": "fresh basil or dried parsley", "quantity_guidance": "1 tsp dried", "effect_on_recipe": "slightly different herbaceous note"},
+      {"original": "red chilli flakes", "substitute": "black pepper or cayenne", "quantity_guidance": "1/4 tsp cayenne", "effect_on_recipe": "different heat profile"}
+    ],
+    "cooking_tips": ["Do not let garlic burn — keep heat medium-low.", "Reserve pasta water before draining, as it is essential to the sauce.", "Use good quality extra-virgin olive oil for best flavour."],
+    "nutrition": {"calories_per_serving": "420 kcal", "protein": "12g", "carbs": "58g", "fat": "16g"}
+  },
+  {
+    "id": "r002",
+    "name": "Masala Omelette",
+    "description": "A spiced Indian-style omelette packed with onions, tomatoes, green chilli, and coriander. A quick protein-rich breakfast or light meal.",
+    "cuisine": "Indian",
+    "meal_type": "breakfast",
+    "difficulty": "Easy",
+    "cooking_time_minutes": 10,
+    "prep_time_minutes": 5,
+    "servings": 1,
+    "dietary_info": ["vegetarian", "gluten-free", "dairy-free", "high-protein"],
+    "tags": ["eggs", "quick", "spicy", "protein"],
+    "ingredients": [
+      {"name": "eggs", "quantity": "2", "unit": ""},
+      {"name": "onion", "quantity": "1/4", "unit": "medium"},
+      {"name": "tomato", "quantity": "1/4", "unit": "medium"},
+      {"name": "green chilli", "quantity": "1", "unit": ""},
+      {"name": "fresh coriander", "quantity": "1", "unit": "tbsp"},
+      {"name": "turmeric powder", "quantity": "1/4", "unit": "tsp"},
+      {"name": "cumin powder", "quantity": "1/4", "unit": "tsp"},
+      {"name": "salt", "quantity": "to taste", "unit": ""},
+      {"name": "oil or butter", "quantity": "1", "unit": "tsp"}
+    ],
+    "steps": [
+      {"step_number": 1, "instruction": "Finely chop onion, tomato, green chilli, and coriander.", "required_ingredients": ["onion", "tomato", "green chilli", "fresh coriander"]},
+      {"step_number": 2, "instruction": "Beat eggs in a bowl. Add all chopped vegetables, turmeric, cumin, and salt. Mix well.", "required_ingredients": ["eggs", "turmeric powder", "cumin powder", "salt"]},
+      {"step_number": 3, "instruction": "Heat oil/butter in a non-stick pan over medium heat. Pour egg mixture and spread evenly.", "required_ingredients": ["oil or butter"]},
+      {"step_number": 4, "instruction": "Cook for 2 minutes until edges set. Fold in half or roll, cook another minute, and serve hot.", "tip": "Cover with a lid for 1 minute for a fluffier omelette."}
+    ],
+    "substitutions": [
+      {"original": "green chilli", "substitute": "black pepper or chilli powder", "quantity_guidance": "1/4 tsp chilli powder", "effect_on_recipe": "milder or different heat"},
+      {"original": "fresh coriander", "substitute": "fresh parsley or spring onion", "quantity_guidance": "same amount", "effect_on_recipe": "different herb note"}
+    ],
+    "cooking_tips": ["Use fresh eggs for a fluffier omelette.", "Medium heat prevents burning.", "Add cheese for a richer version."],
+    "nutrition": {"calories_per_serving": "180 kcal", "protein": "13g", "carbs": "5g", "fat": "12g"}
+  },
+  {
+    "id": "r003",
+    "name": "Chicken Stir-Fry with Vegetables",
+    "description": "A fast, flavourful stir-fry with tender chicken, colourful vegetables, and a savoury soy-ginger sauce. Perfect weeknight dinner.",
+    "cuisine": "Asian",
+    "meal_type": "dinner",
+    "difficulty": "Medium",
+    "cooking_time_minutes": 20,
+    "prep_time_minutes": 10,
+    "servings": 2,
+    "dietary_info": ["dairy-free", "high-protein"],
+    "tags": ["chicken", "stir-fry", "vegetables", "quick", "healthy"],
+    "ingredients": [
+      {"name": "chicken breast", "quantity": "300", "unit": "g"},
+      {"name": "bell pepper", "quantity": "1", "unit": ""},
+      {"name": "broccoli", "quantity": "1", "unit": "cup"},
+      {"name": "carrot", "quantity": "1", "unit": "medium"},
+      {"name": "garlic", "quantity": "3", "unit": "cloves"},
+      {"name": "ginger", "quantity": "1", "unit": "tsp"},
+      {"name": "soy sauce", "quantity": "3", "unit": "tbsp"},
+      {"name": "sesame oil", "quantity": "1", "unit": "tbsp"},
+      {"name": "cornstarch", "quantity": "1", "unit": "tbsp"},
+      {"name": "vegetable oil", "quantity": "2", "unit": "tbsp"},
+      {"name": "spring onion", "quantity": "2", "unit": "stalks"}
+    ],
+    "steps": [
+      {"step_number": 1, "instruction": "Slice chicken breast thinly. Toss with 1 tbsp soy sauce and cornstarch. Let marinate 5 minutes.", "required_ingredients": ["chicken breast", "soy sauce", "cornstarch"]},
+      {"step_number": 2, "instruction": "Cut all vegetables into bite-sized pieces. Mince garlic and ginger.", "required_ingredients": ["bell pepper", "broccoli", "carrot", "garlic", "ginger"]},
+      {"step_number": 3, "instruction": "Heat vegetable oil in a wok or large pan over high heat. Stir-fry chicken for 4-5 minutes until cooked through. Remove and set aside.", "required_ingredients": ["vegetable oil", "chicken breast"]},
+      {"step_number": 4, "instruction": "In the same pan, stir-fry garlic and ginger for 30 seconds. Add carrots and broccoli, cook 3 minutes. Add bell pepper, cook 2 more minutes.", "required_ingredients": ["garlic", "ginger", "carrot", "broccoli", "bell pepper"]},
+      {"step_number": 5, "instruction": "Return chicken to pan. Add remaining soy sauce and sesame oil. Toss everything together for 1 minute. Garnish with spring onion and serve over rice.", "required_ingredients": ["soy sauce", "sesame oil", "spring onion"], "tip": "Keep heat high throughout for best texture."}
+    ],
+    "substitutions": [
+      {"original": "chicken breast", "substitute": "tofu or chickpeas", "quantity_guidance": "300g firm tofu, pressed and cubed", "effect_on_recipe": "makes it vegetarian/vegan"},
+      {"original": "soy sauce", "substitute": "tamari (gluten-free) or coconut aminos", "quantity_guidance": "same amount", "effect_on_recipe": "tamari is gluten-free; coconut aminos is milder"},
+      {"original": "broccoli", "substitute": "bok choy, cabbage, or green beans", "quantity_guidance": "same amount", "effect_on_recipe": "similar texture and nutrition"},
+      {"original": "sesame oil", "substitute": "any neutral oil + sesame seeds", "quantity_guidance": "1 tbsp oil + 1 tsp sesame seeds", "effect_on_recipe": "less intense sesame flavour"}
+    ],
+    "cooking_tips": ["High heat is essential for a proper stir-fry.", "Prep all ingredients before you start cooking.", "Do not overcrowd the pan."],
+    "nutrition": {"calories_per_serving": "320 kcal", "protein": "35g", "carbs": "18g", "fat": "12g"}
+  },
+  {
+    "id": "r004",
+    "name": "Lentil Dal",
+    "description": "A hearty, nourishing Indian red lentil dal with warming spices. Naturally vegan, high in protein and fibre, and ready in 30 minutes.",
+    "cuisine": "Indian",
+    "meal_type": "dinner",
+    "difficulty": "Easy",
+    "cooking_time_minutes": 30,
+    "prep_time_minutes": 10,
+    "servings": 3,
+    "dietary_info": ["vegan", "vegetarian", "gluten-free", "dairy-free", "high-protein"],
+    "tags": ["lentils", "dal", "healthy", "budget", "one-pot"],
+    "ingredients": [
+      {"name": "red lentils", "quantity": "200", "unit": "g"},
+      {"name": "onion", "quantity": "1", "unit": "medium"},
+      {"name": "tomato", "quantity": "2", "unit": "medium"},
+      {"name": "garlic", "quantity": "3", "unit": "cloves"},
+      {"name": "ginger", "quantity": "1", "unit": "tsp"},
+      {"name": "turmeric powder", "quantity": "1/2", "unit": "tsp"},
+      {"name": "cumin seeds", "quantity": "1", "unit": "tsp"},
+      {"name": "coriander powder", "quantity": "1", "unit": "tsp"},
+      {"name": "garam masala", "quantity": "1/2", "unit": "tsp"},
+      {"name": "oil", "quantity": "2", "unit": "tbsp"},
+      {"name": "salt", "quantity": "to taste", "unit": ""},
+      {"name": "fresh coriander", "quantity": "2", "unit": "tbsp"},
+      {"name": "water", "quantity": "700", "unit": "ml"}
+    ],
+    "steps": [
+      {"step_number": 1, "instruction": "Rinse lentils until water runs clear. Set aside.", "required_ingredients": ["red lentils"]},
+      {"step_number": 2, "instruction": "Heat oil in a pot. Add cumin seeds and let sizzle 30 seconds. Add diced onion and cook 5 minutes until golden.", "required_ingredients": ["oil", "cumin seeds", "onion"]},
+      {"step_number": 3, "instruction": "Add minced garlic and ginger. Cook 1 minute. Add diced tomatoes and cook 3-4 minutes until soft.", "required_ingredients": ["garlic", "ginger", "tomato"]},
+      {"step_number": 4, "instruction": "Add turmeric, coriander powder, and salt. Stir well.", "required_ingredients": ["turmeric powder", "coriander powder", "salt"]},
+      {"step_number": 5, "instruction": "Add rinsed lentils and water. Bring to a boil, then simmer 20 minutes until lentils are completely soft and dal has thickened.", "required_ingredients": ["red lentils", "water"]},
+      {"step_number": 6, "instruction": "Stir in garam masala. Taste and adjust seasoning. Garnish with fresh coriander. Serve with rice or flatbread.", "required_ingredients": ["garam masala", "fresh coriander"], "tip": "Add a squeeze of lemon before serving for brightness."}
+    ],
+    "substitutions": [
+      {"original": "red lentils", "substitute": "yellow split peas or green lentils", "quantity_guidance": "same amount; increase cooking time by 10 minutes", "effect_on_recipe": "slightly different texture"},
+      {"original": "garam masala", "substitute": "curry powder", "quantity_guidance": "3/4 tsp", "effect_on_recipe": "similar warming spice profile"},
+      {"original": "fresh coriander", "substitute": "fresh parsley", "quantity_guidance": "same amount", "effect_on_recipe": "different herb flavour"}
+    ],
+    "cooking_tips": ["Rinse lentils thoroughly to remove excess starch.", "Dal thickens as it cools; add a little water when reheating.", "A tadka (tempered spices in hot oil) poured on top at serving elevates the dish."],
+    "nutrition": {"calories_per_serving": "290 kcal", "protein": "18g", "carbs": "42g", "fat": "6g"}
+  },
+  {
+    "id": "r005",
+    "name": "Avocado Toast with Poached Egg",
+    "description": "Creamy smashed avocado on toasted sourdough topped with a perfectly poached egg. A nutritious, trendy breakfast or brunch dish.",
+    "cuisine": "Contemporary",
+    "meal_type": "breakfast",
+    "difficulty": "Medium",
+    "cooking_time_minutes": 15,
+    "prep_time_minutes": 5,
+    "servings": 1,
+    "dietary_info": ["vegetarian", "dairy-free"],
+    "tags": ["avocado", "eggs", "toast", "healthy", "brunch"],
+    "ingredients": [
+      {"name": "sourdough bread", "quantity": "2", "unit": "slices"},
+      {"name": "avocado", "quantity": "1", "unit": "ripe"},
+      {"name": "egg", "quantity": "1", "unit": ""},
+      {"name": "lemon juice", "quantity": "1", "unit": "tsp"},
+      {"name": "red chilli flakes", "quantity": "pinch", "unit": ""},
+      {"name": "salt", "quantity": "to taste", "unit": ""},
+      {"name": "black pepper", "quantity": "to taste", "unit": ""},
+      {"name": "white vinegar", "quantity": "1", "unit": "tsp"}
+    ],
+    "steps": [
+      {"step_number": 1, "instruction": "Toast the sourdough slices until golden and crisp.", "required_ingredients": ["sourdough bread"]},
+      {"step_number": 2, "instruction": "Halve avocado, remove stone, scoop flesh into a bowl. Add lemon juice, salt, and pepper. Mash roughly with a fork.", "required_ingredients": ["avocado", "lemon juice", "salt", "black pepper"]},
+      {"step_number": 3, "instruction": "Bring a small saucepan of water to a gentle simmer. Add white vinegar. Crack egg into a small cup. Create a gentle swirl in the water and slide the egg in. Poach for 3 minutes for a runny yolk.", "required_ingredients": ["egg", "white vinegar"]},
+      {"step_number": 4, "instruction": "Spread smashed avocado on toast. Top with poached egg. Season with salt, pepper, and chilli flakes. Serve immediately.", "required_ingredients": ["red chilli flakes"], "tip": "Fresh eggs hold together better when poaching."}
+    ],
+    "substitutions": [
+      {"original": "sourdough bread", "substitute": "any bread, rye, or whole wheat", "quantity_guidance": "same slices", "effect_on_recipe": "different flavour profile"},
+      {"original": "poached egg", "substitute": "fried or scrambled egg", "quantity_guidance": "1 egg", "effect_on_recipe": "easier preparation"},
+      {"original": "lemon juice", "substitute": "lime juice or a splash of vinegar", "quantity_guidance": "same amount", "effect_on_recipe": "similar acidity"}
+    ],
+    "cooking_tips": ["Use ripe avocados for the creamiest spread.", "The water for poaching should be barely simmering, not boiling.", "Add feta or microgreens for extra flavour."],
+    "nutrition": {"calories_per_serving": "380 kcal", "protein": "14g", "carbs": "32g", "fat": "22g"}
+  },
+  {
+    "id": "r006",
+    "name": "Tomato Basil Soup",
+    "description": "A velvety, warming tomato soup with fresh basil and a touch of cream. Simple pantry ingredients, beautiful result.",
+    "cuisine": "European",
+    "meal_type": "lunch",
+    "difficulty": "Easy",
+    "cooking_time_minutes": 30,
+    "prep_time_minutes": 10,
+    "servings": 3,
+    "dietary_info": ["vegetarian", "gluten-free"],
+    "tags": ["soup", "tomato", "comfort", "blended"],
+    "ingredients": [
+      {"name": "tomatoes", "quantity": "600", "unit": "g"},
+      {"name": "onion", "quantity": "1", "unit": "medium"},
+      {"name": "garlic", "quantity": "3", "unit": "cloves"},
+      {"name": "olive oil", "quantity": "2", "unit": "tbsp"},
+      {"name": "vegetable stock", "quantity": "500", "unit": "ml"},
+      {"name": "fresh basil", "quantity": "10", "unit": "leaves"},
+      {"name": "double cream", "quantity": "2", "unit": "tbsp"},
+      {"name": "sugar", "quantity": "1", "unit": "tsp"},
+      {"name": "salt", "quantity": "to taste", "unit": ""},
+      {"name": "black pepper", "quantity": "to taste", "unit": ""}
+    ],
+    "steps": [
+      {"step_number": 1, "instruction": "Dice onion and roughly chop tomatoes. Mince garlic.", "required_ingredients": ["onion", "tomato", "garlic"]},
+      {"step_number": 2, "instruction": "Heat olive oil in a large pot. Cook onion over medium heat for 5 minutes. Add garlic, cook 1 minute.", "required_ingredients": ["olive oil", "onion", "garlic"]},
+      {"step_number": 3, "instruction": "Add tomatoes, sugar, salt, and pepper. Cook 10 minutes until tomatoes break down.", "required_ingredients": ["tomatoes", "sugar", "salt", "black pepper"]},
+      {"step_number": 4, "instruction": "Pour in vegetable stock and bring to a boil. Reduce heat and simmer 15 minutes.", "required_ingredients": ["vegetable stock"]},
+      {"step_number": 5, "instruction": "Remove from heat. Add fresh basil. Use an immersion blender to blend until smooth. Stir in cream.", "required_ingredients": ["fresh basil", "double cream"], "tip": "Blend carefully; hot liquids expand."},
+      {"step_number": 6, "instruction": "Taste and adjust seasoning. Serve with crusty bread and a drizzle of olive oil."}
+    ],
+    "substitutions": [
+      {"original": "fresh tomatoes", "substitute": "2 cans of chopped tomatoes (800g)", "quantity_guidance": "2 x 400g tins", "effect_on_recipe": "slightly sweeter, convenient"},
+      {"original": "double cream", "substitute": "coconut cream or cashew cream", "quantity_guidance": "same amount", "effect_on_recipe": "makes it vegan"},
+      {"original": "vegetable stock", "substitute": "water + 1 tsp stock powder", "quantity_guidance": "500ml", "effect_on_recipe": "similar result"}
+    ],
+    "cooking_tips": ["A pinch of sugar balances tomato acidity.", "Roasting tomatoes first adds deeper flavour.", "Pair with grilled cheese for a classic combination."],
+    "nutrition": {"calories_per_serving": "160 kcal", "protein": "4g", "carbs": "18g", "fat": "9g"}
+  },
+  {
+    "id": "r007",
+    "name": "Mushroom Fried Rice",
+    "description": "Umami-packed fried rice with mushrooms, eggs, and vegetables. Uses leftover rice for a quick and satisfying meal.",
+    "cuisine": "Asian",
+    "meal_type": "lunch",
+    "difficulty": "Easy",
+    "cooking_time_minutes": 15,
+    "prep_time_minutes": 10,
+    "servings": 2,
+    "dietary_info": ["vegetarian", "dairy-free"],
+    "tags": ["rice", "mushroom", "quick", "leftovers", "budget"],
+    "ingredients": [
+      {"name": "cooked rice", "quantity": "2", "unit": "cups"},
+      {"name": "mushrooms", "quantity": "150", "unit": "g"},
+      {"name": "eggs", "quantity": "2", "unit": ""},
+      {"name": "garlic", "quantity": "2", "unit": "cloves"},
+      {"name": "soy sauce", "quantity": "2", "unit": "tbsp"},
+      {"name": "sesame oil", "quantity": "1", "unit": "tsp"},
+      {"name": "spring onion", "quantity": "3", "unit": "stalks"},
+      {"name": "oil", "quantity": "2", "unit": "tbsp"},
+      {"name": "salt", "quantity": "to taste", "unit": ""},
+      {"name": "white pepper", "quantity": "1/4", "unit": "tsp"}
+    ],
+    "steps": [
+      {"step_number": 1, "instruction": "Slice mushrooms. Mince garlic. Slice spring onion.", "required_ingredients": ["mushrooms", "garlic", "spring onion"]},
+      {"step_number": 2, "instruction": "Heat 1 tbsp oil in a wok over high heat. Beat eggs with a pinch of salt and scramble quickly. Remove and set aside.", "required_ingredients": ["eggs", "oil", "salt"]},
+      {"step_number": 3, "instruction": "Add remaining oil. Stir-fry garlic 30 seconds. Add mushrooms and cook 3 minutes.", "required_ingredients": ["garlic", "mushrooms", "oil"]},
+      {"step_number": 4, "instruction": "Add cold cooked rice. Break up any clumps. Stir-fry on high heat for 3-4 minutes until slightly crispy.", "required_ingredients": ["cooked rice"], "tip": "Day-old cold rice gives the best texture."},
+      {"step_number": 5, "instruction": "Add soy sauce, white pepper, and scrambled eggs. Toss together. Finish with sesame oil and spring onion.", "required_ingredients": ["soy sauce", "white pepper", "sesame oil", "spring onion"]}
+    ],
+    "substitutions": [
+      {"original": "mushrooms", "substitute": "tofu, chicken, or mixed vegetables", "quantity_guidance": "150g", "effect_on_recipe": "different protein/flavour"},
+      {"original": "cooked rice", "substitute": "cauliflower rice for low-carb", "quantity_guidance": "2 cups", "effect_on_recipe": "lower carbs, different texture"},
+      {"original": "soy sauce", "substitute": "tamari or coconut aminos", "quantity_guidance": "same amount", "effect_on_recipe": "gluten-free option"}
+    ],
+    "cooking_tips": ["Use day-old rice for best texture.", "High heat is essential for fried rice.", "Add a splash of water if rice sticks to the pan."],
+    "nutrition": {"calories_per_serving": "340 kcal", "protein": "12g", "carbs": "48g", "fat": "11g"}
+  },
+  {
+    "id": "r008",
+    "name": "Black Bean Tacos",
+    "description": "Smoky, satisfying black bean tacos with fresh salsa and lime. A quick, budget-friendly Mexican-inspired dinner.",
+    "cuisine": "Mexican",
+    "meal_type": "dinner",
+    "difficulty": "Easy",
+    "cooking_time_minutes": 15,
+    "prep_time_minutes": 10,
+    "servings": 2,
+    "dietary_info": ["vegan", "vegetarian", "dairy-free"],
+    "tags": ["tacos", "beans", "vegan", "Mexican", "quick"],
+    "ingredients": [
+      {"name": "black beans", "quantity": "400", "unit": "g (1 tin)"},
+      {"name": "small flour tortillas", "quantity": "6", "unit": ""},
+      {"name": "tomato", "quantity": "2", "unit": "medium"},
+      {"name": "onion", "quantity": "1/2", "unit": "medium"},
+      {"name": "lime", "quantity": "1", "unit": ""},
+      {"name": "garlic", "quantity": "2", "unit": "cloves"},
+      {"name": "cumin powder", "quantity": "1", "unit": "tsp"},
+      {"name": "smoked paprika", "quantity": "1/2", "unit": "tsp"},
+      {"name": "fresh coriander", "quantity": "small handful", "unit": ""},
+      {"name": "oil", "quantity": "1", "unit": "tbsp"},
+      {"name": "salt", "quantity": "to taste", "unit": ""}
+    ],
+    "steps": [
+      {"step_number": 1, "instruction": "Make salsa: finely dice tomato and half the onion. Mix with lime juice, chopped coriander, and a pinch of salt. Set aside.", "required_ingredients": ["tomato", "onion", "lime", "fresh coriander", "salt"]},
+      {"step_number": 2, "instruction": "Drain and rinse black beans. Dice remaining onion. Mince garlic.", "required_ingredients": ["black beans", "onion", "garlic"]},
+      {"step_number": 3, "instruction": "Heat oil in a pan. Cook onion 3 minutes. Add garlic, cumin, and smoked paprika. Cook 1 minute.", "required_ingredients": ["oil", "onion", "garlic", "cumin powder", "smoked paprika"]},
+      {"step_number": 4, "instruction": "Add beans to pan. Mash lightly with a fork. Cook 3-4 minutes, adding a splash of water if too dry. Season with salt.", "required_ingredients": ["black beans", "salt"]},
+      {"step_number": 5, "instruction": "Warm tortillas in a dry pan. Spoon beans onto tortillas, top with fresh salsa. Serve with lime wedges.", "required_ingredients": ["small flour tortillas", "lime"], "tip": "Add sliced avocado, sour cream, or hot sauce as desired."}
+    ],
+    "substitutions": [
+      {"original": "black beans", "substitute": "kidney beans or chickpeas", "quantity_guidance": "400g", "effect_on_recipe": "different texture and flavour"},
+      {"original": "flour tortillas", "substitute": "corn tortillas or lettuce wraps", "quantity_guidance": "same number", "effect_on_recipe": "corn tortillas are gluten-free"},
+      {"original": "smoked paprika", "substitute": "regular paprika or chilli powder", "quantity_guidance": "same amount", "effect_on_recipe": "less smoky flavour"}
+    ],
+    "cooking_tips": ["Warm tortillas properly to prevent cracking.", "A pinch of smoked paprika adds depth to the beans.", "Top with sliced avocado for richness."],
+    "nutrition": {"calories_per_serving": "380 kcal", "protein": "16g", "carbs": "58g", "fat": "9g"}
+  },
+  {
+    "id": "r009",
+    "name": "Greek Salad",
+    "description": "A refreshing classic Greek salad with tomatoes, cucumber, olives, red onion, and creamy feta. Light, healthy, no cooking required.",
+    "cuisine": "Mediterranean",
+    "meal_type": "lunch",
+    "difficulty": "Easy",
+    "cooking_time_minutes": 0,
+    "prep_time_minutes": 10,
+    "servings": 2,
+    "dietary_info": ["vegetarian", "gluten-free"],
+    "tags": ["salad", "no-cook", "healthy", "Mediterranean", "fresh"],
+    "ingredients": [
+      {"name": "tomatoes", "quantity": "3", "unit": "medium"},
+      {"name": "cucumber", "quantity": "1", "unit": ""},
+      {"name": "red onion", "quantity": "1/2", "unit": ""},
+      {"name": "kalamata olives", "quantity": "60", "unit": "g"},
+      {"name": "feta cheese", "quantity": "100", "unit": "g"},
+      {"name": "olive oil", "quantity": "3", "unit": "tbsp"},
+      {"name": "red wine vinegar", "quantity": "1", "unit": "tbsp"},
+      {"name": "dried oregano", "quantity": "1", "unit": "tsp"},
+      {"name": "salt", "quantity": "to taste", "unit": ""},
+      {"name": "black pepper", "quantity": "to taste", "unit": ""}
+    ],
+    "steps": [
+      {"step_number": 1, "instruction": "Cut tomatoes into wedges. Slice cucumber into thick half-moons. Thinly slice red onion.", "required_ingredients": ["tomatoes", "cucumber", "red onion"]},
+      {"step_number": 2, "instruction": "Combine tomatoes, cucumber, red onion, and olives in a large bowl.", "required_ingredients": ["kalamata olives"]},
+      {"step_number": 3, "instruction": "Whisk together olive oil, red wine vinegar, oregano, salt, and pepper to make the dressing.", "required_ingredients": ["olive oil", "red wine vinegar", "dried oregano", "salt", "black pepper"]},
+      {"step_number": 4, "instruction": "Drizzle dressing over salad. Top with crumbled or sliced feta. Serve immediately.", "required_ingredients": ["feta cheese"], "tip": "Do not toss vigorously — Greek salad is gently mixed."}
+    ],
+    "substitutions": [
+      {"original": "feta cheese", "substitute": "tofu feta or vegan feta", "quantity_guidance": "100g", "effect_on_recipe": "makes it vegan"},
+      {"original": "kalamata olives", "substitute": "any black olives", "quantity_guidance": "same amount", "effect_on_recipe": "slightly different flavour"},
+      {"original": "red wine vinegar", "substitute": "lemon juice", "quantity_guidance": "1 tbsp", "effect_on_recipe": "fresher, more citrusy dressing"}
+    ],
+    "cooking_tips": ["Use ripe tomatoes for best flavour.", "Soak sliced red onion in cold water for 10 minutes to reduce sharpness.", "Add a small amount of lemon zest to the dressing for extra brightness."],
+    "nutrition": {"calories_per_serving": "280 kcal", "protein": "9g", "carbs": "12g", "fat": "22g"}
+  },
+  {
+    "id": "r010",
+    "name": "Banana Oat Pancakes",
+    "description": "Fluffy, naturally sweet pancakes made from ripe bananas and oats. Gluten-free, dairy-free, and quick to prepare for a wholesome breakfast.",
+    "cuisine": "Contemporary",
+    "meal_type": "breakfast",
+    "difficulty": "Easy",
+    "cooking_time_minutes": 15,
+    "prep_time_minutes": 5,
+    "servings": 2,
+    "dietary_info": ["vegetarian", "gluten-free", "dairy-free"],
+    "tags": ["pancakes", "banana", "oats", "healthy", "breakfast"],
+    "ingredients": [
+      {"name": "ripe bananas", "quantity": "2", "unit": ""},
+      {"name": "oats", "quantity": "1", "unit": "cup"},
+      {"name": "eggs", "quantity": "2", "unit": ""},
+      {"name": "baking powder", "quantity": "1/2", "unit": "tsp"},
+      {"name": "cinnamon", "quantity": "1/2", "unit": "tsp"},
+      {"name": "vanilla extract", "quantity": "1/2", "unit": "tsp"},
+      {"name": "oil or butter", "quantity": "1", "unit": "tsp"},
+      {"name": "honey or maple syrup", "quantity": "to serve", "unit": ""}
+    ],
+    "steps": [
+      {"step_number": 1, "instruction": "Blend oats in a blender until flour-like. Add bananas, eggs, baking powder, cinnamon, and vanilla. Blend until smooth.", "required_ingredients": ["oats", "ripe bananas", "eggs", "baking powder", "cinnamon", "vanilla extract"]},
+      {"step_number": 2, "instruction": "Let batter rest 2 minutes.", "tip": "The batter should be thick but pourable. Add 1-2 tbsp water if too thick."},
+      {"step_number": 3, "instruction": "Heat a non-stick pan over medium-low heat with a little oil/butter. Pour 1/4 cup batter per pancake. Cook 2-3 minutes until bubbles form, then flip and cook 1-2 more minutes.", "required_ingredients": ["oil or butter"]},
+      {"step_number": 4, "instruction": "Serve stacked with honey or maple syrup, fresh fruit, or nut butter.", "required_ingredients": ["honey or maple syrup"]}
+    ],
+    "substitutions": [
+      {"original": "ripe bananas", "substitute": "applesauce (1/2 cup)", "quantity_guidance": "1/2 cup per 2 bananas", "effect_on_recipe": "less sweet, different flavour"},
+      {"original": "eggs", "substitute": "flax eggs (1 tbsp ground flax + 3 tbsp water per egg)", "quantity_guidance": "2 flax eggs", "effect_on_recipe": "makes it vegan, slightly denser"},
+      {"original": "oats", "substitute": "almond flour", "quantity_guidance": "1 cup", "effect_on_recipe": "grain-free, denser texture"}
+    ],
+    "cooking_tips": ["Riper bananas = sweeter pancakes.", "Keep heat on medium-low to cook through without burning.", "These pancakes are fragile; flip gently."],
+    "nutrition": {"calories_per_serving": "290 kcal", "protein": "11g", "carbs": "46g", "fat": "7g"}
+  },
+  {
+    "id": "r011",
+    "name": "Creamy Butter Chicken",
+    "description": "Rich, aromatic Indian butter chicken with a velvety tomato-cream sauce. A restaurant-quality curry made at home.",
+    "cuisine": "Indian",
+    "meal_type": "dinner",
+    "difficulty": "Medium",
+    "cooking_time_minutes": 35,
+    "prep_time_minutes": 15,
+    "servings": 3,
+    "dietary_info": ["gluten-free", "high-protein"],
+    "tags": ["chicken", "curry", "Indian", "creamy", "tomato"],
+    "ingredients": [
+      {"name": "chicken thighs", "quantity": "500", "unit": "g"},
+      {"name": "butter", "quantity": "3", "unit": "tbsp"},
+      {"name": "onion", "quantity": "1", "unit": "large"},
+      {"name": "garlic", "quantity": "4", "unit": "cloves"},
+      {"name": "ginger", "quantity": "1", "unit": "tbsp"},
+      {"name": "tomato passata", "quantity": "400", "unit": "ml"},
+      {"name": "heavy cream", "quantity": "150", "unit": "ml"},
+      {"name": "garam masala", "quantity": "1.5", "unit": "tsp"},
+      {"name": "cumin powder", "quantity": "1", "unit": "tsp"},
+      {"name": "coriander powder", "quantity": "1", "unit": "tsp"},
+      {"name": "turmeric powder", "quantity": "1/2", "unit": "tsp"},
+      {"name": "chilli powder", "quantity": "1/2", "unit": "tsp"},
+      {"name": "salt", "quantity": "to taste", "unit": ""},
+      {"name": "fresh coriander", "quantity": "to garnish", "unit": ""}
+    ],
+    "steps": [
+      {"step_number": 1, "instruction": "Cut chicken thighs into bite-sized pieces. Season with salt, turmeric, and chilli powder. Set aside.", "required_ingredients": ["chicken thighs", "salt", "turmeric powder", "chilli powder"]},
+      {"step_number": 2, "instruction": "Melt 1 tbsp butter in a pan over medium-high heat. Brown chicken pieces for 5-6 minutes. Remove and set aside.", "required_ingredients": ["butter", "chicken thighs"]},
+      {"step_number": 3, "instruction": "In the same pan, melt remaining butter. Cook diced onion 5 minutes. Add minced garlic and ginger. Cook 2 minutes.", "required_ingredients": ["butter", "onion", "garlic", "ginger"]},
+      {"step_number": 4, "instruction": "Add garam masala, cumin, and coriander powder. Stir 1 minute.", "required_ingredients": ["garam masala", "cumin powder", "coriander powder"]},
+      {"step_number": 5, "instruction": "Add tomato passata. Stir well and simmer 10 minutes.", "required_ingredients": ["tomato passata"]},
+      {"step_number": 6, "instruction": "Return browned chicken to sauce. Simmer 10 minutes until cooked through. Stir in cream. Adjust seasoning. Garnish with fresh coriander. Serve with rice or naan.", "required_ingredients": ["heavy cream", "fresh coriander"], "tip": "A knob of butter stirred in at the end gives extra richness."}
+    ],
+    "substitutions": [
+      {"original": "chicken thighs", "substitute": "paneer or chickpeas", "quantity_guidance": "500g paneer cubed", "effect_on_recipe": "vegetarian version"},
+      {"original": "heavy cream", "substitute": "coconut cream", "quantity_guidance": "same amount", "effect_on_recipe": "dairy-free, adds slight coconut note"},
+      {"original": "tomato passata", "substitute": "blended tinned tomatoes", "quantity_guidance": "400ml", "effect_on_recipe": "same result"}
+    ],
+    "cooking_tips": ["Use chicken thighs for juicier results.", "Do not rush the sauce — simmering develops deeper flavour.", "Serve with basmati rice or naan bread."],
+    "nutrition": {"calories_per_serving": "480 kcal", "protein": "38g", "carbs": "12g", "fat": "32g"}
+  },
+  {
+    "id": "r012",
+    "name": "Vegetable Minestrone Soup",
+    "description": "A hearty Italian vegetable soup loaded with seasonal vegetables, beans, and pasta in a rich tomato broth. Nourishing, filling, and flexible.",
+    "cuisine": "Italian",
+    "meal_type": "lunch",
+    "difficulty": "Easy",
+    "cooking_time_minutes": 35,
+    "prep_time_minutes": 15,
+    "servings": 4,
+    "dietary_info": ["vegan", "vegetarian", "dairy-free"],
+    "tags": ["soup", "vegetables", "beans", "Italian", "hearty"],
+    "ingredients": [
+      {"name": "onion", "quantity": "1", "unit": ""},
+      {"name": "carrot", "quantity": "2", "unit": ""},
+      {"name": "celery", "quantity": "2", "unit": "stalks"},
+      {"name": "garlic", "quantity": "3", "unit": "cloves"},
+      {"name": "zucchini", "quantity": "1", "unit": ""},
+      {"name": "canned tomatoes", "quantity": "400", "unit": "g"},
+      {"name": "cannellini beans", "quantity": "400", "unit": "g"},
+      {"name": "small pasta", "quantity": "80", "unit": "g"},
+      {"name": "vegetable stock", "quantity": "1.2", "unit": "litre"},
+      {"name": "olive oil", "quantity": "2", "unit": "tbsp"},
+      {"name": "dried thyme", "quantity": "1", "unit": "tsp"},
+      {"name": "dried oregano", "quantity": "1", "unit": "tsp"},
+      {"name": "salt", "quantity": "to taste", "unit": ""},
+      {"name": "black pepper", "quantity": "to taste", "unit": ""}
+    ],
+    "steps": [
+      {"step_number": 1, "instruction": "Dice onion, carrot, celery, and zucchini. Mince garlic.", "required_ingredients": ["onion", "carrot", "celery", "zucchini", "garlic"]},
+      {"step_number": 2, "instruction": "Heat olive oil in a large pot. Cook onion, carrot, and celery 5 minutes. Add garlic and cook 1 minute.", "required_ingredients": ["olive oil", "onion", "carrot", "celery", "garlic"]},
+      {"step_number": 3, "instruction": "Add zucchini, canned tomatoes, thyme, and oregano. Stir and cook 2 minutes.", "required_ingredients": ["zucchini", "canned tomatoes", "dried thyme", "dried oregano"]},
+      {"step_number": 4, "instruction": "Pour in vegetable stock. Bring to a boil. Add beans and simmer 10 minutes.", "required_ingredients": ["vegetable stock", "cannellini beans"]},
+      {"step_number": 5, "instruction": "Add pasta and cook according to package time (usually 8-10 minutes). Season with salt and pepper. Serve with crusty bread.", "required_ingredients": ["small pasta", "salt", "black pepper"], "tip": "Add a Parmesan rind to the stock for extra depth (non-vegan)."}
+    ],
+    "substitutions": [
+      {"original": "cannellini beans", "substitute": "chickpeas, kidney beans, or borlotti beans", "quantity_guidance": "400g", "effect_on_recipe": "similar protein and texture"},
+      {"original": "small pasta", "substitute": "rice or barley", "quantity_guidance": "80g", "effect_on_recipe": "rice makes it gluten-free"},
+      {"original": "zucchini", "substitute": "green beans, spinach, or kale", "quantity_guidance": "same volume", "effect_on_recipe": "seasonal variation"}
+    ],
+    "cooking_tips": ["Use whatever vegetables you have.", "Cook pasta separately and add to bowls to prevent it becoming soggy when storing leftovers.", "Minestrone is even better the next day."],
+    "nutrition": {"calories_per_serving": "240 kcal", "protein": "10g", "carbs": "36g", "fat": "6g"}
+  },
+  {
+    "id": "r013",
+    "name": "Shakshuka",
+    "description": "Eggs poached in a richly spiced tomato and pepper sauce. A popular Middle Eastern breakfast or brunch dish.",
+    "cuisine": "Middle Eastern",
+    "meal_type": "breakfast",
+    "difficulty": "Easy",
+    "cooking_time_minutes": 25,
+    "prep_time_minutes": 10,
+    "servings": 2,
+    "dietary_info": ["vegetarian", "gluten-free", "dairy-free"],
+    "tags": ["eggs", "tomato", "spiced", "one-pan", "brunch"],
+    "ingredients": [
+      {"name": "eggs", "quantity": "4", "unit": ""},
+      {"name": "canned tomatoes", "quantity": "400", "unit": "g"},
+      {"name": "red bell pepper", "quantity": "1", "unit": ""},
+      {"name": "onion", "quantity": "1", "unit": ""},
+      {"name": "garlic", "quantity": "3", "unit": "cloves"},
+      {"name": "cumin powder", "quantity": "1", "unit": "tsp"},
+      {"name": "smoked paprika", "quantity": "1", "unit": "tsp"},
+      {"name": "chilli powder", "quantity": "1/4", "unit": "tsp"},
+      {"name": "olive oil", "quantity": "2", "unit": "tbsp"},
+      {"name": "salt", "quantity": "to taste", "unit": ""},
+      {"name": "fresh parsley", "quantity": "to garnish", "unit": ""}
+    ],
+    "steps": [
+      {"step_number": 1, "instruction": "Dice onion and red bell pepper. Mince garlic.", "required_ingredients": ["onion", "red bell pepper", "garlic"]},
+      {"step_number": 2, "instruction": "Heat olive oil in a wide skillet. Cook onion and bell pepper over medium heat for 7 minutes. Add garlic and cook 1 minute.", "required_ingredients": ["olive oil", "onion", "red bell pepper", "garlic"]},
+      {"step_number": 3, "instruction": "Add cumin, smoked paprika, and chilli powder. Stir 1 minute.", "required_ingredients": ["cumin powder", "smoked paprika", "chilli powder"]},
+      {"step_number": 4, "instruction": "Add canned tomatoes, season with salt, and simmer 10 minutes until sauce thickens.", "required_ingredients": ["canned tomatoes", "salt"]},
+      {"step_number": 5, "instruction": "Make 4 wells in the sauce. Crack an egg into each well. Cover pan and cook 6-8 minutes until whites are set but yolks remain runny. Garnish with parsley. Serve with pita or crusty bread.", "required_ingredients": ["eggs", "fresh parsley"], "tip": "Do not overcook the eggs; they continue cooking off heat."}
+    ],
+    "substitutions": [
+      {"original": "eggs", "substitute": "firm tofu (scrambled-style mixed into sauce)", "quantity_guidance": "200g", "effect_on_recipe": "vegan version"},
+      {"original": "canned tomatoes", "substitute": "fresh chopped tomatoes", "quantity_guidance": "500g", "effect_on_recipe": "fresher flavour, cook slightly longer"},
+      {"original": "smoked paprika", "substitute": "regular paprika + pinch of cumin", "quantity_guidance": "same amount", "effect_on_recipe": "less smoky"}
+    ],
+    "cooking_tips": ["Use a wide pan so eggs fit without overlapping.", "The sauce should be thick before adding eggs.", "Top with crumbled feta for a richer version."],
+    "nutrition": {"calories_per_serving": "310 kcal", "protein": "18g", "carbs": "20g", "fat": "18g"}
+  },
+  {
+    "id": "r014",
+    "name": "Classic Margherita Pizza",
+    "description": "A homemade Margherita pizza with a thin, crispy base, fresh tomato sauce, and melted mozzarella. Authentic Italian flavours from scratch.",
+    "cuisine": "Italian",
+    "meal_type": "dinner",
+    "difficulty": "Medium",
+    "cooking_time_minutes": 20,
+    "prep_time_minutes": 30,
+    "servings": 2,
+    "dietary_info": ["vegetarian"],
+    "tags": ["pizza", "Italian", "baked", "cheese", "classic"],
+    "ingredients": [
+      {"name": "strong bread flour", "quantity": "250", "unit": "g"},
+      {"name": "instant yeast", "quantity": "7", "unit": "g"},
+      {"name": "warm water", "quantity": "160", "unit": "ml"},
+      {"name": "olive oil", "quantity": "2", "unit": "tbsp"},
+      {"name": "salt", "quantity": "1", "unit": "tsp"},
+      {"name": "canned tomatoes", "quantity": "200", "unit": "g"},
+      {"name": "garlic", "quantity": "1", "unit": "clove"},
+      {"name": "mozzarella", "quantity": "150", "unit": "g"},
+      {"name": "fresh basil", "quantity": "handful", "unit": ""},
+      {"name": "olive oil", "quantity": "1", "unit": "tbsp (for sauce)"}
+    ],
+    "steps": [
+      {"step_number": 1, "instruction": "Mix flour, yeast, and salt. Add warm water and olive oil. Knead for 8-10 minutes until smooth and elastic. Cover and rest 20 minutes.", "required_ingredients": ["strong bread flour", "instant yeast", "warm water", "olive oil", "salt"]},
+      {"step_number": 2, "instruction": "Make sauce: blend canned tomatoes with garlic, olive oil, and salt. Simmer 5 minutes until slightly thickened.", "required_ingredients": ["canned tomatoes", "garlic", "olive oil", "salt"]},
+      {"step_number": 3, "instruction": "Preheat oven to maximum temperature (250°C/480°F). Place a baking tray in the oven to heat.", "tip": "A hot oven is essential for crispy pizza."},
+      {"step_number": 4, "instruction": "Stretch dough into a thin round on a floured surface. Transfer to baking paper.", "required_ingredients": ["strong bread flour"]},
+      {"step_number": 5, "instruction": "Spread sauce over base. Tear and distribute mozzarella. Season with salt.", "required_ingredients": ["canned tomatoes", "mozzarella", "salt"]},
+      {"step_number": 6, "instruction": "Slide pizza (with paper) onto hot tray. Bake 12-15 minutes until crust is golden and cheese is bubbly. Top with fresh basil leaves and a drizzle of olive oil before serving.", "required_ingredients": ["fresh basil", "olive oil"]}
+    ],
+    "substitutions": [
+      {"original": "mozzarella", "substitute": "vegan mozzarella or cashew cheese", "quantity_guidance": "same amount", "effect_on_recipe": "dairy-free version"},
+      {"original": "strong bread flour", "substitute": "plain flour", "quantity_guidance": "same amount", "effect_on_recipe": "slightly less chewy crust"},
+      {"original": "fresh basil", "substitute": "dried oregano", "quantity_guidance": "1/2 tsp", "effect_on_recipe": "different herbaceous note"}
+    ],
+    "cooking_tips": ["Maximum oven temperature is key.", "Do not overload with toppings.", "Rest dough before stretching for easier handling."],
+    "nutrition": {"calories_per_serving": "560 kcal", "protein": "24g", "carbs": "72g", "fat": "18g"}
+  },
+  {
+    "id": "r015",
+    "name": "Hummus with Pita",
+    "description": "Silky smooth homemade hummus with tahini and lemon. A nutritious, versatile snack or mezze served with warm pita bread.",
+    "cuisine": "Middle Eastern",
+    "meal_type": "snack",
+    "difficulty": "Easy",
+    "cooking_time_minutes": 5,
+    "prep_time_minutes": 10,
+    "servings": 4,
+    "dietary_info": ["vegan", "vegetarian", "dairy-free"],
+    "tags": ["hummus", "dip", "snack", "chickpeas", "no-cook"],
+    "ingredients": [
+      {"name": "canned chickpeas", "quantity": "400", "unit": "g"},
+      {"name": "tahini", "quantity": "3", "unit": "tbsp"},
+      {"name": "lemon juice", "quantity": "2", "unit": "tbsp"},
+      {"name": "garlic", "quantity": "1", "unit": "clove"},
+      {"name": "olive oil", "quantity": "2", "unit": "tbsp"},
+      {"name": "cumin powder", "quantity": "1/2", "unit": "tsp"},
+      {"name": "salt", "quantity": "to taste", "unit": ""},
+      {"name": "ice water", "quantity": "2-3", "unit": "tbsp"},
+      {"name": "pita bread", "quantity": "4", "unit": ""}
+    ],
+    "steps": [
+      {"step_number": 1, "instruction": "Drain and rinse chickpeas. Reserve a few for garnish.", "required_ingredients": ["canned chickpeas"]},
+      {"step_number": 2, "instruction": "Blend tahini and lemon juice together in a food processor for 1 minute until creamy.", "required_ingredients": ["tahini", "lemon juice"]},
+      {"step_number": 3, "instruction": "Add garlic, cumin, and a pinch of salt. Blend 30 seconds.", "required_ingredients": ["garlic", "cumin powder", "salt"]},
+      {"step_number": 4, "instruction": "Add chickpeas. Blend 2 minutes, slowly adding ice water until smooth and creamy.", "required_ingredients": ["canned chickpeas"], "tip": "Ice water makes hummus noticeably silkier."},
+      {"step_number": 5, "instruction": "Taste and adjust seasoning. Serve in a bowl, drizzled with olive oil, a sprinkle of paprika, and reserved chickpeas. Warm pita bread and serve.", "required_ingredients": ["olive oil", "pita bread"]}
+    ],
+    "substitutions": [
+      {"original": "tahini", "substitute": "peanut butter or sunflower seed butter", "quantity_guidance": "same amount", "effect_on_recipe": "different nutty flavour"},
+      {"original": "canned chickpeas", "substitute": "dried chickpeas (soaked and cooked)", "quantity_guidance": "200g dried = 400g cooked", "effect_on_recipe": "fresher flavour, more effort"},
+      {"original": "lemon juice", "substitute": "lime juice or white wine vinegar", "quantity_guidance": "same amount", "effect_on_recipe": "similar acidity"}
+    ],
+    "cooking_tips": ["Blend for a full 2 minutes for the smoothest hummus.", "Ice water is the secret to creamy hummus.", "Homemade hummus keeps in the fridge for up to 5 days."],
+    "nutrition": {"calories_per_serving": "220 kcal", "protein": "8g", "carbs": "26g", "fat": "10g"}
+  },
+  {
+    "id": "r016",
+    "name": "Salmon Teriyaki",
+    "description": "Glazed salmon fillet with a sweet-savoury teriyaki sauce. Restaurant-quality result at home in under 20 minutes.",
+    "cuisine": "Japanese",
+    "meal_type": "dinner",
+    "difficulty": "Easy",
+    "cooking_time_minutes": 15,
+    "prep_time_minutes": 5,
+    "servings": 2,
+    "dietary_info": ["gluten-free", "dairy-free", "high-protein"],
+    "tags": ["salmon", "fish", "Japanese", "healthy", "quick"],
+    "ingredients": [
+      {"name": "salmon fillets", "quantity": "2", "unit": ""},
+      {"name": "soy sauce", "quantity": "3", "unit": "tbsp"},
+      {"name": "honey", "quantity": "2", "unit": "tbsp"},
+      {"name": "rice vinegar", "quantity": "1", "unit": "tbsp"},
+      {"name": "garlic", "quantity": "1", "unit": "clove"},
+      {"name": "ginger", "quantity": "1/2", "unit": "tsp"},
+      {"name": "sesame oil", "quantity": "1", "unit": "tsp"},
+      {"name": "sesame seeds", "quantity": "1", "unit": "tsp"},
+      {"name": "spring onion", "quantity": "2", "unit": "stalks"},
+      {"name": "oil", "quantity": "1", "unit": "tbsp"}
+    ],
+    "steps": [
+      {"step_number": 1, "instruction": "Mix soy sauce, honey, rice vinegar, minced garlic, ginger, and sesame oil together to make teriyaki sauce.", "required_ingredients": ["soy sauce", "honey", "rice vinegar", "garlic", "ginger", "sesame oil"]},
+      {"step_number": 2, "instruction": "Pat salmon dry. Heat oil in an oven-safe pan over medium-high heat. Place salmon skin-side up and cook 3 minutes.", "required_ingredients": ["salmon fillets", "oil"]},
+      {"step_number": 3, "instruction": "Flip salmon. Pour teriyaki sauce over fillets. Cook 2 minutes, then place pan under a hot grill/broiler for 3-4 minutes until caramelised.", "required_ingredients": ["soy sauce", "honey"]},
+      {"step_number": 4, "instruction": "Garnish with sesame seeds and sliced spring onion. Serve with steamed rice.", "required_ingredients": ["sesame seeds", "spring onion"], "tip": "Do not overcook salmon — it should be just opaque in the centre."}
+    ],
+    "substitutions": [
+      {"original": "salmon", "substitute": "trout, cod, or tofu", "quantity_guidance": "same weight", "effect_on_recipe": "different texture; tofu makes it vegan"},
+      {"original": "honey", "substitute": "maple syrup or brown sugar", "quantity_guidance": "same amount", "effect_on_recipe": "slightly different sweetness profile"},
+      {"original": "rice vinegar", "substitute": "apple cider vinegar", "quantity_guidance": "same amount", "effect_on_recipe": "slightly sharper flavour"}
+    ],
+    "cooking_tips": ["Pat fish dry for a better sear.", "Watch carefully under the grill as honey burns quickly.", "Marinating for 15 minutes intensifies the flavour."],
+    "nutrition": {"calories_per_serving": "380 kcal", "protein": "34g", "carbs": "18g", "fat": "18g"}
+  },
+  {
+    "id": "r017",
+    "name": "Chickpea Curry (Chana Masala)",
+    "description": "A bold, fragrant Indian chickpea curry with whole spices and tangy tomatoes. Hearty, vegan, and packed with protein and flavour.",
+    "cuisine": "Indian",
+    "meal_type": "dinner",
+    "difficulty": "Medium",
+    "cooking_time_minutes": 35,
+    "prep_time_minutes": 10,
+    "servings": 3,
+    "dietary_info": ["vegan", "vegetarian", "gluten-free", "dairy-free", "high-protein"],
+    "tags": ["chickpeas", "curry", "vegan", "Indian", "protein"],
+    "ingredients": [
+      {"name": "canned chickpeas", "quantity": "400", "unit": "g"},
+      {"name": "onion", "quantity": "1", "unit": "large"},
+      {"name": "tomatoes", "quantity": "3", "unit": "medium"},
+      {"name": "garlic", "quantity": "4", "unit": "cloves"},
+      {"name": "ginger", "quantity": "1", "unit": "tbsp"},
+      {"name": "oil", "quantity": "2", "unit": "tbsp"},
+      {"name": "cumin seeds", "quantity": "1", "unit": "tsp"},
+      {"name": "turmeric", "quantity": "1/2", "unit": "tsp"},
+      {"name": "coriander powder", "quantity": "1.5", "unit": "tsp"},
+      {"name": "cumin powder", "quantity": "1", "unit": "tsp"},
+      {"name": "chilli powder", "quantity": "1/2", "unit": "tsp"},
+      {"name": "garam masala", "quantity": "1", "unit": "tsp"},
+      {"name": "amchur (dry mango powder)", "quantity": "1/2", "unit": "tsp"},
+      {"name": "salt", "quantity": "to taste", "unit": ""},
+      {"name": "fresh coriander", "quantity": "to garnish", "unit": ""}
+    ],
+    "steps": [
+      {"step_number": 1, "instruction": "Heat oil in a pot. Add cumin seeds and let sizzle 30 seconds. Add finely diced onion. Cook 8 minutes until deep golden.", "required_ingredients": ["oil", "cumin seeds", "onion"]},
+      {"step_number": 2, "instruction": "Add minced garlic and ginger. Cook 2 minutes.", "required_ingredients": ["garlic", "ginger"]},
+      {"step_number": 3, "instruction": "Add chopped tomatoes. Cook 8-10 minutes until they break down and oil separates.", "required_ingredients": ["tomatoes"]},
+      {"step_number": 4, "instruction": "Add turmeric, coriander powder, cumin powder, chilli powder, and salt. Stir well and cook 2 minutes.", "required_ingredients": ["turmeric", "coriander powder", "cumin powder", "chilli powder", "salt"]},
+      {"step_number": 5, "instruction": "Add drained chickpeas and 200ml water. Stir, cover, and cook 10 minutes.", "required_ingredients": ["canned chickpeas"]},
+      {"step_number": 6, "instruction": "Add garam masala and amchur. Cook 2 more minutes. Garnish with fresh coriander. Serve with rice or roti.", "required_ingredients": ["garam masala", "amchur", "fresh coriander"], "tip": "Amchur adds essential tartness — substitute with lemon juice if unavailable."}
+    ],
+    "substitutions": [
+      {"original": "amchur", "substitute": "1 tsp lemon juice or tamarind paste", "quantity_guidance": "1 tsp lemon juice", "effect_on_recipe": "provides the same tartness"},
+      {"original": "canned chickpeas", "substitute": "dried chickpeas (soaked overnight and cooked)", "quantity_guidance": "200g dried", "effect_on_recipe": "better texture, more effort"},
+      {"original": "fresh tomatoes", "substitute": "canned chopped tomatoes", "quantity_guidance": "400g", "effect_on_recipe": "convenient, slightly different texture"}
+    ],
+    "cooking_tips": ["Cooking onions until deep golden is essential for curry depth.", "The oil separating from tomatoes indicates the masala base is ready.", "Partially mash some chickpeas for a thicker sauce."],
+    "nutrition": {"calories_per_serving": "310 kcal", "protein": "14g", "carbs": "44g", "fat": "9g"}
+  },
+  {
+    "id": "r018",
+    "name": "Caprese Salad",
+    "description": "The simplest Italian salad — ripe tomatoes, fresh mozzarella, and basil drizzled with olive oil and balsamic. No cooking required.",
+    "cuisine": "Italian",
+    "meal_type": "snack",
+    "difficulty": "Easy",
+    "cooking_time_minutes": 0,
+    "prep_time_minutes": 10,
+    "servings": 2,
+    "dietary_info": ["vegetarian", "gluten-free"],
+    "tags": ["salad", "no-cook", "Italian", "cheese", "tomato"],
+    "ingredients": [
+      {"name": "tomatoes", "quantity": "3", "unit": "large ripe"},
+      {"name": "fresh mozzarella", "quantity": "150", "unit": "g"},
+      {"name": "fresh basil", "quantity": "handful", "unit": ""},
+      {"name": "olive oil", "quantity": "2", "unit": "tbsp"},
+      {"name": "balsamic vinegar", "quantity": "1", "unit": "tbsp"},
+      {"name": "salt", "quantity": "to taste", "unit": ""},
+      {"name": "black pepper", "quantity": "to taste", "unit": ""}
+    ],
+    "steps": [
+      {"step_number": 1, "instruction": "Slice tomatoes and mozzarella into even rounds.", "required_ingredients": ["tomatoes", "fresh mozzarella"]},
+      {"step_number": 2, "instruction": "Arrange alternating slices of tomato and mozzarella on a serving plate.", "tip": "Slightly overlapping slices looks most attractive."},
+      {"step_number": 3, "instruction": "Tuck fresh basil leaves between slices.", "required_ingredients": ["fresh basil"]},
+      {"step_number": 4, "instruction": "Drizzle generously with olive oil and balsamic vinegar. Season with salt and black pepper. Serve immediately.", "required_ingredients": ["olive oil", "balsamic vinegar", "salt", "black pepper"]}
+    ],
+    "substitutions": [
+      {"original": "fresh mozzarella", "substitute": "burrata or ricotta", "quantity_guidance": "same amount", "effect_on_recipe": "richer and creamier"},
+      {"original": "balsamic vinegar", "substitute": "balsamic glaze or red wine vinegar", "quantity_guidance": "same amount", "effect_on_recipe": "glaze is sweeter"},
+      {"original": "fresh basil", "substitute": "fresh mint", "quantity_guidance": "same amount", "effect_on_recipe": "different but pleasant flavour"}
+    ],
+    "cooking_tips": ["Only use the ripest tomatoes available.", "Good olive oil makes all the difference.", "Serve at room temperature, not straight from the fridge."],
+    "nutrition": {"calories_per_serving": "290 kcal", "protein": "15g", "carbs": "8g", "fat": "22g"}
+  },
+  {
+    "id": "r019",
+    "name": "French Onion Soup",
+    "description": "Classic deeply caramelised onion soup topped with crusty croutons and melted gruyère. A French bistro staple that takes patience but rewards it.",
+    "cuisine": "French",
+    "meal_type": "lunch",
+    "difficulty": "Medium",
+    "cooking_time_minutes": 60,
+    "prep_time_minutes": 15,
+    "servings": 3,
+    "dietary_info": ["vegetarian"],
+    "tags": ["soup", "French", "onion", "cheese", "comfort"],
+    "ingredients": [
+      {"name": "onions", "quantity": "5", "unit": "large"},
+      {"name": "butter", "quantity": "3", "unit": "tbsp"},
+      {"name": "olive oil", "quantity": "1", "unit": "tbsp"},
+      {"name": "garlic", "quantity": "2", "unit": "cloves"},
+      {"name": "dry white wine", "quantity": "100", "unit": "ml"},
+      {"name": "vegetable stock", "quantity": "1", "unit": "litre"},
+      {"name": "thyme", "quantity": "3", "unit": "sprigs"},
+      {"name": "bay leaf", "quantity": "1", "unit": ""},
+      {"name": "baguette", "quantity": "6", "unit": "slices"},
+      {"name": "gruyère cheese", "quantity": "120", "unit": "g"},
+      {"name": "salt", "quantity": "to taste", "unit": ""},
+      {"name": "black pepper", "quantity": "to taste", "unit": ""}
+    ],
+    "steps": [
+      {"step_number": 1, "instruction": "Thinly slice all onions. Heat butter and olive oil in a heavy-bottomed pot over medium-low heat. Add onions and a pinch of salt.", "required_ingredients": ["onions", "butter", "olive oil", "salt"]},
+      {"step_number": 2, "instruction": "Cook onions slowly for 40-50 minutes, stirring every 5-10 minutes, until deeply golden and caramelised. This step cannot be rushed.", "tip": "Low and slow is the secret. Do not turn up the heat."},
+      {"step_number": 3, "instruction": "Add minced garlic. Cook 1 minute. Pour in white wine and scrape the bottom of the pan. Cook until wine evaporates.", "required_ingredients": ["garlic", "dry white wine"]},
+      {"step_number": 4, "instruction": "Add stock, thyme, and bay leaf. Bring to a boil, then simmer 15 minutes. Remove thyme and bay leaf. Adjust seasoning.", "required_ingredients": ["vegetable stock", "thyme", "bay leaf"]},
+      {"step_number": 5, "instruction": "Toast baguette slices. Ladle soup into oven-safe bowls. Top with baguette slices and grated gruyère. Grill/broil until cheese is melted and bubbling.", "required_ingredients": ["baguette", "gruyère cheese"]}
+    ],
+    "substitutions": [
+      {"original": "gruyère", "substitute": "emmental, comté, or strong cheddar", "quantity_guidance": "same amount", "effect_on_recipe": "slightly different flavour"},
+      {"original": "dry white wine", "substitute": "extra stock or apple cider vinegar", "quantity_guidance": "splash of vinegar + 100ml stock", "effect_on_recipe": "deglazes the pan; skip wine if preferred"},
+      {"original": "baguette", "substitute": "any crusty bread", "quantity_guidance": "same slices", "effect_on_recipe": "same function"}
+    ],
+    "cooking_tips": ["Do not rush the caramelisation — 40 minutes minimum.", "A heavy-bottomed pot prevents burning.", "Adding a pinch of sugar speeds up caramelisation slightly."],
+    "nutrition": {"calories_per_serving": "420 kcal", "protein": "16g", "carbs": "42g", "fat": "20g"}
+  },
+  {
+    "id": "r020",
+    "name": "Overnight Oats",
+    "description": "No-cook oats soaked overnight in milk with chia seeds and honey. A quick, nutritious, meal-prep breakfast ready in the morning.",
+    "cuisine": "Contemporary",
+    "meal_type": "breakfast",
+    "difficulty": "Easy",
+    "cooking_time_minutes": 0,
+    "prep_time_minutes": 5,
+    "servings": 1,
+    "dietary_info": ["vegetarian", "gluten-free"],
+    "tags": ["oats", "no-cook", "meal-prep", "healthy", "breakfast"],
+    "ingredients": [
+      {"name": "rolled oats", "quantity": "1/2", "unit": "cup"},
+      {"name": "milk", "quantity": "1/2", "unit": "cup"},
+      {"name": "yoghurt", "quantity": "1/4", "unit": "cup"},
+      {"name": "chia seeds", "quantity": "1", "unit": "tbsp"},
+      {"name": "honey or maple syrup", "quantity": "1", "unit": "tbsp"},
+      {"name": "vanilla extract", "quantity": "1/4", "unit": "tsp"},
+      {"name": "fresh berries or banana", "quantity": "to top", "unit": ""}
+    ],
+    "steps": [
+      {"step_number": 1, "instruction": "Combine oats, milk, yoghurt, chia seeds, honey, and vanilla in a jar or container. Stir well.", "required_ingredients": ["rolled oats", "milk", "yoghurt", "chia seeds", "honey or maple syrup", "vanilla extract"]},
+      {"step_number": 2, "instruction": "Seal and refrigerate overnight (at least 4 hours).", "tip": "Can be prepared up to 3 days ahead."},
+      {"step_number": 3, "instruction": "In the morning, stir and add a splash of milk if too thick. Top with fresh berries or sliced banana and serve.", "required_ingredients": ["fresh berries or banana"]}
+    ],
+    "substitutions": [
+      {"original": "milk", "substitute": "oat milk, almond milk, or coconut milk", "quantity_guidance": "same amount", "effect_on_recipe": "makes it dairy-free/vegan"},
+      {"original": "yoghurt", "substitute": "coconut yoghurt or skipped", "quantity_guidance": "same amount or omit", "effect_on_recipe": "dairy-free or thinner consistency"},
+      {"original": "chia seeds", "substitute": "flax seeds or hemp seeds", "quantity_guidance": "same amount", "effect_on_recipe": "similar nutrition and thickening"}
+    ],
+    "cooking_tips": ["Use rolled oats, not instant, for best texture.", "Chia seeds thicken the oats overnight.", "Add nut butter for extra protein and richness."],
+    "nutrition": {"calories_per_serving": "320 kcal", "protein": "12g", "carbs": "50g", "fat": "8g"}
+  }
+]

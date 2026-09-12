@@ -1,0 +1,2 @@
+Architecture diagram is at docs/architecture.svg
+To generate PNG: pip install matplotlib && python docs/generate_architecture.py
