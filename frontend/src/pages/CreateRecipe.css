@@ -1,0 +1,117 @@
+.create-recipe-page { max-width: 1000px; margin: 0 auto; }
+
+.page-header {
+  margin-bottom: var(--space-10);
+}
+.page-header h1 { margin-bottom: var(--space-3); }
+.page-header p { color: var(--color-text-secondary); font-size: var(--text-lg); max-width: 560px; }
+
+.create-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: var(--space-6);
+  align-items: start;
+}
+
+.create-form-main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.form-section-title {
+  font-size: var(--text-xl);
+  margin-bottom: var(--space-2);
+}
+.form-section-desc {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-5);
+}
+
+.ingredient-input-section { display: flex; flex-direction: column; gap: var(--space-3); }
+.ingredient-input-row { display: flex; gap: var(--space-2); }
+.ingredient-input-row .form-input { flex: 1; }
+
+.ingredient-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  padding: var(--space-3);
+  background-color: var(--color-surface-alt);
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border-light);
+  min-height: 48px;
+}
+
+.quick-examples {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3);
+  background-color: var(--color-surface-alt);
+  border-radius: var(--radius);
+  border: 1px dashed var(--color-border);
+}
+
+.quick-examples-label {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.create-form-sidebar {
+  position: sticky;
+  top: calc(var(--nav-height) + var(--space-4));
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.servings-slider {
+  width: 100%;
+  accent-color: var(--color-primary);
+  cursor: pointer;
+}
+
+.servings-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  margin-top: var(--space-1);
+}
+
+.form-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.servings-value {
+  font-size: var(--text-base);
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.form-actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.loading-hint {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+@media (max-width: 800px) {
+  .create-form-grid { grid-template-columns: 1fr; }
+  .create-form-sidebar { position: static; }
+}

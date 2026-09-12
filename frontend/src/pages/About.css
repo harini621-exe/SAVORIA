@@ -1,0 +1,131 @@
+.about-page { max-width: 880px; margin: 0 auto; }
+.about-header { margin-bottom: var(--space-12); }
+.about-header h1 { font-size: clamp(2rem, 3vw, 2.5rem); }
+.about-section { margin-bottom: var(--space-12); padding-bottom: var(--space-12); border-bottom: 1px solid var(--color-border); }
+.about-section:last-of-type { border-bottom: none; }
+
+.about-two-col { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-8); }
+.about-two-col h2 { font-size: var(--text-xl); margin-bottom: var(--space-3); }
+.about-two-col p { color: var(--color-text-secondary); line-height: 1.7; }
+
+/* Workflow diagram */
+.workflow-diagram { display: flex; flex-direction: column; gap: 0; margin-bottom: var(--space-6); }
+
+.workflow-diagram-step {
+  display: flex;
+  gap: var(--space-5);
+  align-items: flex-start;
+  padding: var(--space-5) 0;
+  position: relative;
+}
+
+.wf-number {
+  width: 44px;
+  height: 44px;
+  background-color: var(--color-primary-bg);
+  border: 2px solid rgba(181, 101, 29, 0.25);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: var(--text-xs);
+  color: var(--color-primary);
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.wf-content { flex: 1; }
+.wf-content h3 { font-size: var(--text-base); margin-bottom: var(--space-2); }
+.wf-content p { font-size: var(--text-sm); color: var(--color-text-secondary); line-height: 1.6; margin-bottom: var(--space-2); }
+.wf-agent {
+  display: inline-flex;
+  padding: 2px 8px;
+  background-color: var(--color-surface-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  font-size: 11px;
+  font-family: monospace;
+  color: var(--color-text-secondary);
+}
+
+.wf-connector {
+  position: absolute;
+  left: 21px;
+  top: calc(44px + var(--space-5));
+  width: 2px;
+  height: calc(var(--space-5) + 2px);
+  background-color: rgba(181, 101, 29, 0.2);
+}
+
+.architecture-diagram-note {
+  padding: var(--space-4);
+  background-color: var(--color-surface-alt);
+  border-radius: var(--radius);
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+}
+.architecture-diagram-note code {
+  background-color: var(--color-border);
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+}
+
+/* RAG pipeline */
+.rag-pipeline-steps { display: flex; flex-direction: column; gap: var(--space-4); }
+
+.rag-step {
+  display: flex;
+  gap: var(--space-4);
+  align-items: flex-start;
+  padding: var(--space-4);
+  background-color: var(--color-surface-alt);
+  border-radius: var(--radius);
+}
+
+.rag-step-num {
+  width: 28px;
+  height: 28px;
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-xs);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.rag-step strong { font-size: var(--text-sm); font-weight: 600; display: block; margin-bottom: 2px; }
+.rag-step p { font-size: var(--text-sm); color: var(--color-text-secondary); margin-bottom: 0; line-height: 1.5; }
+
+/* Tech stack */
+.tech-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-4); }
+
+.tech-card h3 { font-size: var(--text-base); margin-bottom: var(--space-3); color: var(--color-primary); }
+.tech-card ul { padding-left: var(--space-4); }
+.tech-card li { font-size: var(--text-sm); color: var(--color-text-secondary); margin-bottom: var(--space-2); line-height: 1.5; }
+
+/* CTA */
+.about-cta {
+  text-align: center;
+  padding: var(--space-12);
+  background: linear-gradient(135deg, var(--color-primary-bg), #fdf8f0);
+  border: 1px solid rgba(181, 101, 29, 0.2);
+  border-radius: var(--radius-xl);
+  margin-top: var(--space-8);
+}
+.about-cta h2 { margin-bottom: var(--space-3); }
+.about-cta p { color: var(--color-text-secondary); margin-bottom: var(--space-6); }
+
+@media (max-width: 700px) {
+  .about-two-col { grid-template-columns: 1fr; }
+  .tech-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 500px) {
+  .tech-grid { grid-template-columns: 1fr; }
+}
